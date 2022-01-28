@@ -23,8 +23,8 @@ const useStyles = makeStyles({
 })
 
 AWS.config.update({
-    accessKeyId: 'AKIATLQ5LBNUWCGDMSK7',
-    secretAccessKey: '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'
+    accessKeyId: '',
+    secretAccessKey: ''
 })
 
 const myBucket = new AWS.S3({
